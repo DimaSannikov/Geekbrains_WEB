@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork</title>
+</head>
+<body>
+    <h1></h1>
+
+    <script>
+        // Задание №7 - перепишите код, используя конструкцию switch-case, запрашивая возраст пользователя через диалоговое окно.
+        // let age = parseInt(prompt("Input your age"));
+        // switch (age) {
+        //     case 1:
+        //     case 2:
+        //     case 3:
+        //     case 4:            
+        //     case 5:
+        //         alert("little kid")
+        //         break;
+        //     case 6:
+        //     case 7:
+        //     case 8:
+        //     case 9:
+        //     case 10:
+        //     case 11:
+        //     case 12:
+        //         alert("kid")
+        //         break;
+        //     case 13:
+        //     case 14:
+        //     case 15:
+        //     case 16:
+        //     case 17:
+        //     case 18:
+        //     case 19:
+        //         alert("teenager")
+        //         break;
+        //     default:
+        //         alert("very old man :)")
+        //         break;
+        // }
+
+        // Создать страницу, которая спрашивает имя у пользователя и выводит его с помощью функции.
+        // function greeting(name) {
+        //     alert(`Привет, ${name}!`);
+        // }
+        // let yourName = prompt("Введите ваше имя");
+        // greeting(yourName);
+
+        // Наверху страницы разместить заголовок h1 с текстом приветствия. Javascript код должен
+        // спрашивать имя пользователя и после этого отображать его в заголовке
+        function greetingInHeader(yourName) {
+            let myHeading = document.querySelector("h1");
+            myHeading.textContent = "Добро пожаловать на наш сайт, " + yourName + "!"
+        }
+        
+        let name = prompt("Введите ваше имя");
+        greetingInHeader(name);
+
+
+    </script>
+</body>
+</html>

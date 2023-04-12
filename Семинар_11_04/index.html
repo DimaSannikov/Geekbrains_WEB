@@ -1,0 +1,108 @@
+<!-- https://t.me/sanicDogg -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript_11_apr</title>
+</head>
+<body>
+
+
+    <script>
+        // Три функции
+        // alert, prompt, confirm
+
+        // Задание №1 - с помощью JavaScript создать всплывающее диалоговое окно с произвольным текстом: например, «Привет, Мир!».
+        // alert("Hello world!");
+
+        // alert("Двойные");
+        // alert('Одиночные');
+        // alert(`Обратные`);
+
+        // Задание №2 - вычислить результат 158+2 и вывести значение выражения в диалоговое окно.
+        // let a = parseInt(prompt("Input digit 1"));
+        // let b = parseInt(prompt("Input digit 2"));
+        // alert(`Result ${a+b}`);
+
+        // Переменные бывают: let, const, var
+
+        // Задание №3 - передать строковый параметр в диалоговое окно. Например, вывести «Привет, Алевтина!», где имя — это передаваемый параметр.
+        // let name = prompt("Input your name");
+        // alert(`Hello ${name}`);
+
+        // Задание №4 - вызвать диалоговое окно с заголовком «Как вас зовут?» и подсказкой «Имя» в поле ввода. Затем вывести имя, которое ввели.
+        // let name = prompt("What's your name?")
+
+        // Задание №5 - написать функцию, выводящую в диалоговом окне текст и переменную. Например, «Привет, Алевтина». Где «Алевтина» — это внешняя переменная.
+        // function greeting(name) {
+        //     alert(`Hello ${name}!`);
+        // }
+        // let yourName = prompt("Input your name");
+        // greeting(yourName);
+
+        // Задание №6 - вывести на экран в диалоговом окне текст с сообщением “Вы уверены?” и кнопками «ОК» , «Отмена».
+        // if (confirm("Are you sure?")) {alert("Glad that you're sure")}
+        // else {alert("That's bad")};
+
+        // Задание №7 - перепишите код, используя конструкцию switch-case, запрашивая возраст пользователя через диалоговое окно.
+        let age = parseInt(prompt("Input your age"));
+        switch (age) {
+            case 1:
+            case 2:
+            case 3:
+            case 4:            
+            case 5:
+                alert("little kid")
+                break;
+            case 6:
+            case 7:
+            case 8:
+            case 9:
+            case 10:
+            case 11:
+            case 12:
+                alert("kid")
+                break;
+            case 13:
+            case 14:
+            case 15:
+            case 16:
+            case 17:
+            case 18:
+            case 19:
+                alert("teenager")
+                break;
+            default:
+                alert("old man :)")
+                break;
+        }
+                
+        // let a = parseInt(prompt("Input digit 1"));
+        // let b = parseInt(prompt("Input digit 2"));
+        // let c = parseInt(prompt("Input digit 3"));
+        // let d = b*b-4*a*c;
+        // alert(`Result ${d}`);
+
+
+        // function solveEquation() {
+        //     // 2 12 16
+        //     let a = 2; //Number(prompt('Insert a'));
+        //     let b = 12; //Number(prompt('Insert b'));
+        //     let c = 16; //Number(prompt('Insert c'));
+        //     let dscr = Number(b*b-4*a*c)
+        //     let x1 = Number((-b+Math.sqrt(dscr))/2*a)
+        //     let x2 = Number((-b-Math.sqrt(dscr))/2*a)
+        //     // alert(`Result ${b*b-4*a*c} and ${x1} and ${x2}`);
+        //     return `Result ${b*b-4*a*c} and ${x1} and ${x2}`;
+        // }
+
+        // let result = solveEquation();
+        // alert(result);
+
+
+    </script>
+</body>
+</html>
