@@ -1,0 +1,56 @@
+<!-- 
+    Создать страницу с рассказом о чём угодно. Например, о себе или о любимой собаке.
+    Страница должна содержать заголовки, абзацы, картинки, списки и ссылки.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>История про хомяка</title>
+    <link rel="stylesheet" href="homework.css">
+</head>
+<body>
+    <h1></h1>
+    <h2><b>Мой хомяк!</b></h2>
+    <h3>Начало</h3>
+    <p>Ну а начало было в далеком <strong>2016-м году</strong></p>
+    <p style="background-color: brown;"><a href="https://disk.yandex.com/i/FMFMsc3vrkarxw">
+        <b>На <i>маленького щеночка</i> можно посмотреть перейдя по этой ссылке</b></a></p>
+
+    <h3>Год <b><i>2019</i></b></h3>
+    <p>Хомяк строит глазки</p>
+    <p><img width="600" src="./2020-04-11 14-14-10.JPG" alt="Собака чилит"></p>
+
+    <h3>Год <b><i>2021</i></b></h3>
+    <p>Сладкий сон</p>
+    <p><img width="600" src="./2021-10-16 16-17-54.JPG" alt="Тут спящая собака"></p>
+    <p>На представленных фото</p>
+    <ol>
+        <li>Щенок</li>
+        <li>Собака чилит</li>
+        <li>Собака спит</li>
+    </ol>
+
+    <ul>
+        <li>Щенок</li>
+        <li>Собака чилит</li>
+        <li>Собака спит</li>
+    </ul>
+    <hr>
+
+    <script>
+        // Наверху страницы разместить заголовок h1 с текстом приветствия. Javascript код должен
+        // спрашивать имя пользователя и после этого отображать его в заголовке
+        function greetingInHeader(yourName) {
+            let myHeading = document.querySelector("h1");
+            myHeading.textContent = "Добро пожаловать на наш сайт, " + yourName + "!"
+        }
+        
+        let name = prompt("Введите ваше имя");
+        greetingInHeader(name);
+    </script>
+</body>
+</html>

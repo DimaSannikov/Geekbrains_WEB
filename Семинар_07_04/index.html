@@ -1,0 +1,91 @@
+<!-- 
+    Задание 4
+    Изменить цвет фона сайта, заголовка, подзаголовка
+    и ссылки на странице в уже созданном HTML-файле,
+    применив метод встраивания и вложения стилей.
+
+    Как встраивать стили на сайт:
+    1. Вложение (атрибут style)
+    2. Встраивание (тег style)
+    3. Связывание (файл style.css)
+
+    селектор {
+        свойство: значениеж
+    }
+
+ -->
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello from VS Code</title>
+    <style>
+        body {
+            background-color: bisque;
+        }
+        p {
+            color: darkgreen;
+        }
+        ol {
+            background-color: crimson;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="color: red; background-color: lime;"">Всем привет!</h1>
+
+    <h2>Немного обо мне</h2>
+
+    <p style="color: white; background-color: chocolate;">Здесь я буду рассказывать о своих <i>достижениях</i> <br>
+        в области изучения <b>HTML</b> и <b>CSS.</b></p>
+        
+    <p>Сложно ли учить <b>HTML</b>? Возможно. <br>
+        Но если приложить некоторые усилия, то <b><i>ничего <br>
+        сложного нет</i></b> .</p>
+
+    <a style="color: black;" href="https://yandex.com/">Спросите у Яндекса</a>
+    <hr>
+    <!-- 
+        Списки
+
+        1. Нумерованные (ol)
+        2. Ненумерованные (ul)
+
+        Ссылки
+
+        1. Абсолютные (полный путь)
+        2. Относительные (из текущего каталога или папки)
+     -->
+
+    <p>Природа</p>
+    <img width="600" src="https://img3.goodfon.ru/original/1152x864/8/69/priroda-gory-kamni-les.jpg" alt="Природа">
+    <hr>
+
+    <p>Хаски</p>
+    <img width="600" src="./images/Husky-Puppy-1280x800.jpg" alt="Хаски">
+    <hr>
+
+    <p>Морская свинка</p>
+    <img width="600" src="../1651051223_6-vsegda-pomnim-com-p-morskie-svinki-foto-6.jpg" alt="Морская свинка">
+    <hr>
+
+    <ol>
+        <li>Природа</li>
+        <li>Хаски</li>
+        <li>Морская свинка</li>
+    </ol>
+    <hr>
+
+    <ul>
+        <li>Природа</li>
+        <li>Хаски</li>
+        <li>Морская свинка</li>
+    </ul>
+    <hr>
+
+</body>
+</html>
