@@ -1,0 +1,47 @@
+<CATALOG>
+    <PERSON>
+        <NAME>
+            <FNAME>Карпова</FNAME>
+            <MIDNAME>Анна</MIDNAME>
+            <LASTNAME>Александровна</LASTNAME>
+        </NAME>
+        <YEAR>2008</YEAR>
+        <CLASS>8А</CLASS>
+        <ADDRESS>
+            <CITY>Москва</CITY>
+            <STREET>Ленинский проспект</STREET>
+            <BUILDING>2</BUILDING>
+            <APT>277</APT>
+        </ADDRESS>
+    </PERSON>
+    <PERSON>
+        <NAME>
+            <FNAME>Малышкин</FNAME>
+            <MIDNAME>Михаил</MIDNAME>
+            <LASTNAME>Иванович</LASTNAME>
+        </NAME>
+        <YEAR>2014</YEAR>
+        <CLASS>2Б</CLASS>
+        <ADDRESS>
+            <CITY>Москва</CITY>
+            <STREET>Ленинградское шоссе</STREET>
+            <BUILDING>10</BUILDING>
+            <APT>56</APT>
+        </ADDRESS>
+    </PERSON>
+    <PERSON>
+        <NAME>
+            <FNAME>Андреева</FNAME>
+            <MIDNAME>Алла</MIDNAME>
+            <LASTNAME>Петровна</LASTNAME>
+        </NAME>
+        <YEAR>2015</YEAR>
+        <CLASS>1Г</CLASS>
+        <ADDRESS>
+            <CITY>Москва</CITY>
+            <STREET>Дмитровское шоссе</STREET>
+            <BUILDING>5</BUILDING>
+            <APT>77</APT>
+        </ADDRESS>
+    </PERSON>
+</CATALOG>

@@ -1,0 +1,46 @@
+<!--
+Название	Автор	Количество страниц	Дата издания	Цена, руб
+Камил видит руками	Томаш Малковски	146	2019	863
+Вероятности и неприятности	Сергей Самойленко	134	2022	1055
+Когда жизнь сбивает с ног	Расс Хэррис	80	2021	945
+Цветы в темноте	Cестра Данг Нгием	124	2020	1027
+Стратегии перемен	Джон Коттер	102	2022	1418
+-->
+
+<CATALOG>
+    <BOOK>
+        <TITLE>Камил видит руками</TITLE>
+        <AUTHOR>Томаш Малковски</AUTHOR>
+        <PAGES>146</PAGES>
+        <DATE>2019</DATE>
+        <PRICE>863</PRICE>
+    </BOOK>
+    <BOOK>
+        <TITLE>Вероятности и неприятности</TITLE>
+        <AUTHOR>Сергей Самойленко</AUTHOR>
+        <PAGES>134</PAGES>
+        <DATE>2022</DATE>
+        <PRICE>1055</PRICE>
+    </BOOK>
+    <BOOK>
+        <TITLE>Когда жизнь сбивает с ног</TITLE>
+        <AUTHOR>Расс Хэррис</AUTHOR>
+        <PAGES>80</PAGES>
+        <DATE>2021</DATE>
+        <PRICE>945</PRICE>
+    </BOOK>
+    <BOOK>
+        <TITLE>Цветы в темноте	Cестра</TITLE>
+        <AUTHOR>Данг Нгием</AUTHOR>
+        <PAGES>124</PAGES>
+        <DATE>2020</DATE>
+        <PRICE>1027</PRICE>
+    </BOOK>
+    <BOOK>
+        <TITLE>Стратегии перемен</TITLE>
+        <AUTHOR>Джон Коттер</AUTHOR>
+        <PAGES>102</PAGES>
+        <DATE>2022</DATE>
+        <PRICE>1418</PRICE>
+    </BOOK>
+</CATALOG>

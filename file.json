@@ -1,0 +1,32 @@
+{
+    "products": [
+      {
+        "name":"Яблоки",
+        "weight":"1000",
+        "product_type":"Фрукты",
+        "price":150,
+        "stock":1
+      },
+      {
+        "name":"Картофель",
+        "weight":"5000",
+        "product_type":"Овощи",
+        "price":320,
+        "stock":2
+      },
+      {
+        "name":"Бананы",
+        "weight":"1000",
+        "product_type":"Фрукты",
+        "price":99,
+        "stock":1
+      },
+      {
+        "name":"Баунти мини",
+        "weight":"100",
+        "product_type":"Кондитерские изделия",
+        "price":80,
+        "stock":3
+      }
+    ]
+  }
